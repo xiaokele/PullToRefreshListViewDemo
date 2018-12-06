@@ -4,12 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.example.administrator.pulltorefreshlistviewdemo.PullToRefreshListView
-        android:id="@+id/listview"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:onClick="headerAndFooterRefresh"
+        android:padding="10dp"
+        android:text="HeaderAndFooterListView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:onClick="moreTypeRefresh"
+        android:padding="10dp"
+        android:text="MoreTypeListView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:onClick="swipeRefresh"
+        android:padding="10dp"
+        android:text="SwipeRefreshListView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:onClick="moreTypeRefresh2"
+        android:padding="10dp"
+        android:text="MoreTypeListView2" />
 
 </LinearLayout>

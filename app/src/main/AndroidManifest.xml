@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".HeaderAndFooterListViewActivity" />
+        <activity android:name=".MoreTypeListViewActivity" />
+        <activity android:name=".SwipeRefreshListViewActivity" />
+        <activity android:name=".MoreTypeListView2Activity" />
     </application>
 
 </manifest>
